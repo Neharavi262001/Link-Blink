@@ -1,0 +1,8 @@
+.navbar {
+    padding: 15px;
+    background: linear-gradient(to right, #252558, #232040, #100e26);
+    color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Font */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+  }
+    

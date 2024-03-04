@@ -1,0 +1,77 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  }
+  span{
+    color: white;
+  }
+  
+  h1 {
+    color: #d3d4d9;
+    font-size: 36px;
+  }
+  
+  h2 {
+    color: #d9d9dc;
+    font-size: 24px;
+  }
+  
+  .instructions {
+    color: #fff;
+    margin: 2rem;
+    text-align: left;
+    
+  }
+  
+  .instructions ol {
+    list-style-type: decimal;
+  }
+ 
+  
+  .upload-button {
+    background-color: #557ab7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #file-input {
+    display: none;
+  }
+
+  .link-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .link-container p {
+    font-size: 16px;
+    color: #c2bdbd;
+  }
+  
+  .link-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #cad0d4;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .copy-success {
+    color: green;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  
