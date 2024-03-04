@@ -1,9 +1,15 @@
 import mongoose from "mongoose";
 
 const fileSchema = new mongoose.Schema({
-    fileName: String,
-    filePath: String,
-    fileSize: Number,
+    fileName: {
+      type: String,
+      required: true
+  },
+    filePath: {
+      type: String,
+      required: true
+  },
+    
   },{timestamps:true});
 
 export default mongoose.model('File',fileSchema)
